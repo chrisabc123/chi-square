@@ -26,7 +26,7 @@
         <li><span class="text-dark font-weight-600 me-2">Features:</span>real time</li>
         <!-- <li><span class="text-dark font-weight-600 me-2">Date:</span>Nov 22, 2018</li> -->
         <li><span class="text-dark font-weight-600 me-2">arxiv:</span><a href="#" target="_blank"></a></li>
-        <li><span class="text-dark font-weight-600 me-2">patent:</span><a href="#" target="_blank">http://kpat.kipris.or.kr/kpat/biblioa.do?method=biblioFrame</a></li>
+        <li><span class="text-dark font-weight-600 me-2">patent:</span><a href="http://kpat.kipris.or.kr/kpat/biblioa.do?method=biblioFrame" target="_blank">kipris</a></li>
         
       </ul>
       <div class="row no-gutters align-items-center">
@@ -42,9 +42,14 @@
     </div>
     <div class="row g-4">
       <h4 class="text-4 font-weight-600">Project Info:</h4>
-      <p>Most of the data may be unorganized, unlabeled, or just a freshly made system that cannot be trained. This is especially true in the field of PHM, where sensor data is used to manage machine plant systems. The model i present is particularly applicable to data with these characteristics. </p>
-      <p>This project extracts features that can be kept constant over time from time series data in a steady state, and proposes a new index to explain the condition of the system. In addition, the new index can be used to statistically determine a defect, and if there is training data, it can be diagnosed and predicted using a trend.</p>
-      <p>This model will be applicable to other fields as well.</p>
+      <p></p>
+      <p>Most commercialized navigation applications generate and provide the optimal route to the destination using only real-time data. That is, at the time of departure (route calculation), the existing navigation system. It predicts the required time by considering only the traffic conditions of launch), but has limitations in not including information on changes in traffic conditions after departure.</p>
+      <p>For example, let's assume a situation where you move from point A to point B at 5:00 on a weekday. at the time of departure
+        The estimated time required was 2 hours, but after 6:00, traffic jams occurred during work hours, resulting in a total of 4 hours.
+        can Using only information on real-time traffic conditions like this makes it difficult to calculate an accurate estimated travel time.
+        There is a high possibility that the path calculated by A is not the optimal path. That is, the route is generated depending only on the present traffic condition of a section to be passed in the future.</p>
+      <p>Past traffic speed information and real-time traffic speed information were modeled in a specific distribution and applied to Bayesian inference as a prior and likelihood function.</p>
+      <p>As a result, real-time traffic conditions are reflected as the road is closer to the starting point, and past traffic conditions are mainly reflected as the road is further away.</p>
     </div>
   </div>
 </div>
