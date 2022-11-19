@@ -23,13 +23,13 @@
         <li><span class="text-dark font-weight-600 me-2">Industry:</span>Autonomous driving, Navigation</li>
         <li><span class="text-dark font-weight-600 me-2">Data from:</span>Topis seoul</li>
         <li><span class="text-dark font-weight-600 me-2">Technologies:</span>bayesian inference</li>
-        <li><span class="text-dark font-weight-600 me-2">Features:</span>real time</li>
+        <li><span class="text-dark font-weight-600 me-2">Features:</span>real time and past data</li>
         <!-- <li><span class="text-dark font-weight-600 me-2">Date:</span>Nov 22, 2018</li> -->
         <li><span class="text-dark font-weight-600 me-2">arxiv:</span><a href="#" target="_blank"></a></li>
-        <li><span class="text-dark font-weight-600 me-2">patent:</span><a href="http://kpat.kipris.or.kr/kpat/biblioa.do?method=biblioFrame" target="_blank">kipris</a></li>
+        <li><span class="text-dark font-weight-600 me-2">patent:</span><a href="https://doi.org/10.8080/1020200140304" target="_blank">https://doi.org/10.8080/1020200140304</a></li>
         
       </ul>
-      <div class="row no-gutters align-items-center">
+      <!-- <div class="row no-gutters align-items-center">
         <div class="col-auto text-dark font-weight-600">Share: </div>
         <div class="col-auto">
           <ul class="social-icons">
@@ -38,18 +38,19 @@
             <li class="social-icons-email"><a data-toggle="tooltip" href="http://www.instagram.com/" target="_blank" title="" data-original-title="Email"><i class="fas fa-envelope"></i></a></li>
           </ul>
         </div>
-      </div>
+      </div> -->
     </div>
     <div class="row g-4">
       <h4 class="text-4 font-weight-600">Project Info:</h4>
       <p></p>
-      <p>Most commercialized navigation applications generate and provide the optimal route to the destination using only real-time data. That is, at the time of departure (route calculation), the existing navigation system. It predicts the required time by considering only the traffic conditions of launch), but has limitations in not including information on changes in traffic conditions after departure.</p>
+      <p>Most commercialized navigation applications generate and provide the optimal route to the destination using only real-time data. That is, at the time of departure (route calculation), the existing navigation system. It predicts the required time by considering only the traffic conditions of launch, but has limitations in not including information on changes in traffic conditions after departure.</p>
       <p>For example, let's assume a situation where you move from point A to point B at 5:00 on a weekday. at the time of departure
         The estimated time required was 2 hours, but after 6:00, traffic jams occurred during work hours, resulting in a total of 4 hours.
         can Using only information on real-time traffic conditions like this makes it difficult to calculate an accurate estimated travel time.
         There is a high possibility that the path calculated by A is not the optimal path. That is, the route is generated depending only on the present traffic condition of a section to be passed in the future.</p>
       <p>Past traffic speed information and real-time traffic speed information were modeled in a specific distribution and applied to Bayesian inference as a prior and likelihood function.</p>
       <p>As a result, real-time traffic conditions are reflected as the road is closer to the starting point, and past traffic conditions are mainly reflected as the road is further away.</p>
+      <p>Therefore, it is possible to calculate a more accurate estimated required time and to suggest a more optimized route to the user.</p>
     </div>
   </div>
 </div>
